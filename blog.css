@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(123, 112, 224);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav{
+    position: fixed;
+    background-color: rgb(131, 104, 173);
+    
+}
+.nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav a{
+    color: rgb(56, 18, 73);
+    text-decoration: none;
+    padding: 70px;
+    font-size: 35px;
+
+}
+.sample{
+    background-image: url("4.jpg");
+    background-size:cover;
+    color: rgb(44, 24, 23);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.sample h1{
+    font-size: 50px;
+    color: rgb(44, 7, 12);
+    font-family: cursive;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.sample p{
+    text-align: center;
+    font-size: 30px;
+}
+.content h1{
+    font-size: 48px;
+    color: rgb(26, 24, 22);
+    text-align: center;
+    text-decoration:underline ;
+}
+.content p{
+    font-size: 35px;
+    margin: 50px;
+}
+.nav.active{
+    background-color: rgb(122, 34, 9);
+}
+.nav.active a{
+    color: rgb(177, 165, 165);
+}
